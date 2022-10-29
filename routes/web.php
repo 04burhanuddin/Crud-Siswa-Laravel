@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::resource('siswa', PendaftaranController::class);
-Route::resource('data-siswa', SiswaController::class);
+Route::resource('/', SiswaController::class);

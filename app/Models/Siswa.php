@@ -15,6 +15,4 @@ class Siswa extends Model
     {
         return $this->belongsTo(Agama::class);
     }
-
-    public $sortable = ['no_pendaftaran', 'nama', 'nilai_ind', 'nilai_mtk', 'nilai_ipa'];
 }
