@@ -2,7 +2,7 @@
 - Jalankan `composer update` In directory root projct
 - Kemudian jalankan `copy .env.example .env`
 - Selanjutnya jalankan `php artisan key:generate`
-- Buat databas <b>wisata_jepara</b> di phpmyadmin
+- Buat databas <b>akademik</b> di phpmyadmin
 - Langkah selanjutnya setting database nya di .env sebagai berikut:
     ```env
     DB_CONNECTION=mysql
